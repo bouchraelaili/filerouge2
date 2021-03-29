@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import {MdAccountCircle} from "react-icons/md";
+import {RiLockPasswordLine} from "react-icons/ri";
+
+
 import './login.css';
-import wave from './wave.svg';
-import bg from './undraw_mobile_interface_wakp.svg';
-import avatar from './undraw_profile_pic_ic5t (1).svg';
+import wave from './image/wave.svg';
+import bg from './image/undraw_mobile_interface_wakp.svg';
+import avatar from './image/undraw_profile_pic_ic5t (1).svg';
 
 
 
@@ -25,7 +29,7 @@ import avatar from './undraw_profile_pic_ic5t (1).svg';
 				<h2 className="title">Welcome</h2>
            		<div className="input-div one">
            		   <div className="i">
-           		   		<i className="fas fa-user"></i>
+           		   		<MdAccountCircle/>
            		   </div>
            		   <div className="div">
            		   		
@@ -34,7 +38,7 @@ import avatar from './undraw_profile_pic_ic5t (1).svg';
            		</div>
            		<div className="input-div pass">
            		   <div className="i"> 
-           		    	<i className="fas fa-lock"></i>
+					  <RiLockPasswordLine/>
            		   </div>
            		   <div className="div">
            		    	<input type="password" className="input" placeholder="Password"/>

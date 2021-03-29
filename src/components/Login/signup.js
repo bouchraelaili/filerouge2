@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import { IconName } from "react-icons/ai";
+import {FaFacebookSquare}  from "react-icons/fa";
+import {AiFillTwitterCircle} from "react-icons/ai";
+import {FaGoogle} from "react-icons/fa";
+import {AiFillLinkedin} from "react-icons/ai";
 import './login.css';
-import wave from './wave.svg';
-import bg from './undraw_mobile_interface_wakp.svg';
-import avatar from './undraw_profile_pic_ic5t (1).svg';
+import bg from './image/undraw_mobile_interface_wakp.svg';
+import avatar from './image/undraw_profile_pic_ic5t (1).svg';
 
 
 
@@ -15,7 +17,7 @@ import avatar from './undraw_profile_pic_ic5t (1).svg';
 
     return (
         <div>
-           <img className="wave" src={wave}/>
+           <img className="test"/>
 	<div className="container">
 		<div className="img">
 			<img src={bg}/>
@@ -41,16 +43,16 @@ import avatar from './undraw_profile_pic_ic5t (1).svg';
             <p className="social-text">Or Sign up with social platforms</p>
             <div className="social-media">
               <a href="#" className="social-icon">
-                <i className="fab fa-facebook-f"></i>
+               <FaFacebookSquare/>
               </a>
               <a href="#" className="social-icon">
-                <i className="fab fa-twitter"></i>
+                <AiFillTwitterCircle/>
               </a>
               <a href="#" className="social-icon">
-                <i className="fab fa-google"></i>
+                <FaGoogle/>
               </a>
               <a href="#" className="social-icon">
-                <i className="fab fa-linkedin-in"></i>
+                <AiFillLinkedin/>
               </a>
             </div>           	
             </form>

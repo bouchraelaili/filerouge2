@@ -72,15 +72,15 @@ form{
 }
 
 .i{
-	color: #d9d9d9;
+	color: rgb(0, 0, 0);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: .3s;
+	font-size: 30px;
 }
 
-.i i{
-	transition: .3s;
-}
+
 
 .input-div > div{
     position: relative;
@@ -216,3 +216,48 @@ form{
     font-size: 1.1rem;
     color: #333;
   }
+
+  
+.social-text {
+	padding: 0.7rem 0;
+	font-size: 1rem;
+  }
+  
+  .social-media {
+	display: flex;
+	justify-content: center;
+  }
+  
+  .social-icon {
+	height: 46px;
+	width: 46px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0.45rem;
+	color: #333;
+	border-radius: 50%;
+	border: 1px solid #333;
+	text-decoration: none;
+	font-size: 1.1rem;
+	transition: 0.3s;
+  }
+  
+  .social-icon:hover {
+	color: #4481eb;
+	border-color: #4481eb;
+  }
+
+  .test {    content: "";
+    position: absolute;
+    height: 2000px;
+    width: 2000px;
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+    background-image: linear-gradient(
+-45deg
+, #4481eb 0%, #04befe 100%);
+    transition: 1.8s ease-in-out;
+    border-radius: 50%;
+    z-index: 6;}
